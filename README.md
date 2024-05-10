@@ -2,6 +2,8 @@
 
 ## Explicación Factorial
 
+Este código implementa el algoritmo del factorial de manera recursiva, utilizando un enfoque donde se calcula el factorial de un número multiplicándolo por el factorial del número anterior, y se maneja el caso base cuando el número es igual a 0.
+
 El algoritmo del factorial es un procedimiento matemático que se utiliza para calcular el producto de todos los enteros positivos desde 1 hasta un número entero no negativo dado n, denotado como n!. Aquí está el proceso del algoritmo:
 
 Definición del Factorial: 
@@ -12,7 +14,7 @@ Caso Base: Si n es igual a 0, entonces el factorial de n es igual a 1 por defini
 Caso Recursivo: Si n es mayor que 0, entonces el factorial de n se calcula multiplicando n por el factorial de n−1. Este proceso se repite recursivamente hasta que se alcance el caso base.
 Por ejemplo, si queremos calcular 5!:
 
-n* (n-1)* (n-2)* ... *(n-n+1)*
+n* (n-1)* (n-2)* ... *(n-n+1)*= n * (n-1)! = n *(n-1) * (n-2)! = ...
 Iniciamos con 5, n=5:
 Multiplicamos 5 por el factorial de 4 (n-1), que es 4!.
 Para calcular 4!, multiplicamos 4 por el factorial de 3 (n-2), que es 3! Continuamos este proceso hasta llegar a 0!, que es 1 por definición.
